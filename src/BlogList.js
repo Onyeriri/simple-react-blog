@@ -6,9 +6,7 @@ const BlogList = ({ blogs, title }) => {
         return (
           <div className="blog-preview" key={blog.id}>
             <h2>{blog.title}</h2>
-            <p>{blog.body}</p>
-            <p>{blog.author}</p>
-            <p>{blog.id}</p>
+            <p>Written by {blog.author}</p>
           </div>
         );
       })}
