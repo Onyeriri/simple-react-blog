@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import BlogDetails from "./BlogDetails";
 
 const BlogList = ({ blogs, title }) => {
   return (
