@@ -15,7 +15,7 @@ const useFetch = (url) => {
       })
       .then((data) => setData(data))
       .catch((err) => {
-        if (err.name === "AbortError") return console.log("Abort Error");
+        if (err.name === "AbortError") return;
         setError(err.message);
       });
 
